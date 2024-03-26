@@ -61,7 +61,7 @@ export default function AppSider(props: IAppSiderProps) {
     const {user}=useGjySelector(state=>state)
     const [menuData, setMenuData] = useState<IMenuType[]>();
     useEffect(()=>{
-        // console.log('gjylocation',gjylocation);
+        // console.log('gjylocation',gjylocation);1111
         
         setselectedKeys(gjylocation.pathname)
         console.log("gjyselectedKeys",gjyselectedKeys);
